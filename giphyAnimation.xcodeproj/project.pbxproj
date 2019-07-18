@@ -15,6 +15,8 @@
 		8A867A7222DFDEFD0050908B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A867A7022DFDEFD0050908B /* LaunchScreen.storyboard */; };
 		8A867A7D22DFDEFD0050908B /* giphyAnimationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A867A7C22DFDEFD0050908B /* giphyAnimationTests.swift */; };
 		8A867A8822DFDEFD0050908B /* giphyAnimationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A867A8722DFDEFD0050908B /* giphyAnimationUITests.swift */; };
+		8A867A9622DFE6EF0050908B /* customBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A867A9522DFE6EF0050908B /* customBtn.swift */; };
+		8A867A9822DFEF0F0050908B /* customBtnAdvanced.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A867A9722DFEF0F0050908B /* customBtnAdvanced.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		8A867A8322DFDEFD0050908B /* giphyAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = giphyAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A867A8722DFDEFD0050908B /* giphyAnimationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = giphyAnimationUITests.swift; sourceTree = "<group>"; };
 		8A867A8922DFDEFD0050908B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A867A9522DFE6EF0050908B /* customBtn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customBtn.swift; sourceTree = "<group>"; };
+		8A867A9722DFEF0F0050908B /* customBtnAdvanced.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customBtnAdvanced.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,8 @@
 		8A867A5822DFDEFB0050908B = {
 			isa = PBXGroup;
 			children = (
+				8A867A9722DFEF0F0050908B /* customBtnAdvanced.swift */,
+				8A867A9522DFE6EF0050908B /* customBtn.swift */,
 				8A867A6322DFDEFB0050908B /* giphyAnimation */,
 				8A867A7B22DFDEFD0050908B /* giphyAnimationTests */,
 				8A867A8622DFDEFD0050908B /* giphyAnimationUITests */,
@@ -260,6 +266,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8A867A6722DFDEFB0050908B /* ViewController.swift in Sources */,
+				8A867A9622DFE6EF0050908B /* customBtn.swift in Sources */,
+				8A867A9822DFEF0F0050908B /* customBtnAdvanced.swift in Sources */,
 				8A867A6522DFDEFB0050908B /* AppDelegate.swift in Sources */,
 				8A867A6D22DFDEFB0050908B /* giphyAnimation.xcdatamodeld in Sources */,
 			);

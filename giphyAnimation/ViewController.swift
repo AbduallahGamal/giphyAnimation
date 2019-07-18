@@ -9,12 +9,34 @@
 import UIKit
 
 class ViewController: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
+    
+    @IBOutlet weak var img_view: UIImageView!
+    
+    var co = 1
+    var tt = Timer()
+    @objc func anim(){
+        co += 1
+        if co == 4{
+            co = 0
+        }
+        img_view.image = UIImage(named: String(co))
+    }
+    
+    @IBAction func btn_giphy(_ sender: Any) {
+        tt = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(ViewController.anim), userInfo: nil, repeats: true)
     }
 
-
+    @IBAction func btn_stop(_ sender: Any) {
+        tt.invalidate()
+    }
+    
+    @IBAction func btn_speed(_ sender: Any) {
+        tt = Timer.scheduledTimer(timeInterval: 0.5, target: self, selector: #selector(ViewController.anim), userInfo: nil, repeats: true)
+    }
+    
+    @IBAction func btn_low(_ sender: Any) {
+        tt = Timer.scheduledTimer(timeInterval: 3, target: self, selector: #selector(ViewController.anim), userInfo: nil, repeats: true)
+    }
+    
 }
 
